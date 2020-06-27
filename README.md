@@ -8,13 +8,13 @@
 
 simple personal resume application created by Angular and Github pages.
 
- [Live Demo](https://mleenings.github.io/cv)
+ [Live Demo](https://mleenings.github.io/cv/)
 
 
 
 ## PREVIEW
 
-![preview animation](src/assets/img/respo.gif)
+![preview animation](src/assets/img/preview.png)
 
 
 ## USAGE
