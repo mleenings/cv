@@ -1,0 +1,147 @@
+/* google fonts */
+@import 'assets/fonts/external_fonts.css';
+
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    height: 100%;
+}
+
+
+
+.container {
+    min-height: 100vh;
+}
+
+p {
+    font-family: "Cairo";
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: "Cairo";
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: .1rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Cairo";
+    font-size: 1.5rem;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.text-primary {
+    color: #779ecb;
+}
+
+.sub-h {
+    text-transform: uppercase;
+    font-family: "Cairo";
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+
+
+
+.full-h {
+    min-height: 100vh;
+    padding: 2vw;
+}
+
+
+
+.sidenav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.txt-toolbar {
+    font-family: "Cairo";
+    font-size: 1.2rem;
+    margin-top: 0;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cv-photo {
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    border-color: red;
+    border: .5rem solid rgba(255, 255, 255, .2);
+
+}
+
+.cv-photo-ico {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border-color: red;
+    border: .1rem solid rgba(255, 255, 255, .2);
+
+}
+
+
+.p-list {
+    font-family: "Cairo" !important;
+    font-size: 1rem !important;
+}
+
+
+
+.card-text {
+    -ms-word-break: break-all !important;
+    word-break: break-all !important;
+
+    /* Non standard for WebKit */
+    word-break: break-word !important;
+
+    -webkit-hyphens: auto !important;
+    -moz-hyphens: auto !important;
+    hyphens: auto !important;
+}
+
+
+
+
+
+.social {
+    color : rgba(255, 255, 255, .7) !important;
+    
+}
+
+
+.toolbar-spacer{
+    flex: 1 1 auto;
+}
+
+.toolbar-icon {
+    padding: 0 2vw;
+}
+
+
+.card-element {
+    margin: .3rem;
+    // width: 80vw;
+    display: inline-flex;
+    flex-flow: column wrap;
+}
+
+.example-header-image {
+    background-size: cover;
+    background-position: center center;
+}
