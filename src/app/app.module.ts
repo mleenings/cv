@@ -20,6 +20,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ExperiencesComponent } from './components/experiences/experiences.component';
 import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { VoluntaryComponent } from './components/voluntary/voluntary.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     AboutComponent,
     ExperiencesComponent,
     EducationComponent,
-    SkillsComponent
+    SkillsComponent,
+    VoluntaryComponent
   ],
   imports: [
     BrowserModule,
