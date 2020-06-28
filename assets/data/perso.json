@@ -146,5 +146,24 @@
             "name": "windows",
             "icon":["fab","windows"]
         } 
-]
+    ],
+    "voluntaries": [{
+            "title": "Trainer and clubmanagement",
+            "description": "Various judo clubs",
+            "period": "2007 - 2018",
+            "picture": "https://www.judobund.de/fileadmin/templates/judobund2018/images/logo_djb.png"
+        },
+        {
+            "title": "Development and maintenance of a club website",
+            "description": "HSZ Aachen",
+            "period": "2012 - 2018",
+            "picture": "https://hochschulsport.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaasxplr"
+        },
+        {
+            "title": "Athlete",
+            "description": "German judo national league",
+            "period": "2014 - 2018",
+            "picture": "https://www.deutsche-judo-bundesliga.de/images/header/logo-judo-bundesliga.png"
+        }
+    ]
 }
