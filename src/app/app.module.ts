@@ -15,6 +15,7 @@ import {
   MatMenuModule,
   MatCardModule
 } from '@angular/material/';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { ExperiencesComponent } from './components/experiences/experiences.component';
@@ -44,6 +45,7 @@ import { VoluntaryComponent } from './components/voluntary/voluntary.component';
     MatToolbarModule,
     MatMenuModule,
     MatCardModule,
+    MatTooltipModule,
     FontAwesomeModule
   ],
   providers: [],

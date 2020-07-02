@@ -107,23 +107,23 @@
             "icon":["fab","react"]
         } ,
         {
-            "name": "nodejs",
+            "name": "Node.js",
             "icon":["fab","node-js"]
         } ,
         {
-            "name": "database",
+            "name": "Database",
             "icon":["fas","database"]
         } ,
         {
-            "name": "html",
+            "name": "HTML5",
             "icon":["fab","html5"]
         },
         {
-            "name": "css",
+            "name": "CSS3",
             "icon":["fab","css3-alt"]
         },
         {
-            "name": "git",
+            "name": "Git",
             "icon":["fab","git-alt"]
         } ,
         {
@@ -135,17 +135,21 @@
             "icon":["fab","docker"]
         }, 
         {
-            "name": "linux",
+            "name": "Linux",
             "icon":["fab","linux"]
         } ,
         {
-            "name": "apple",
+            "name": "Apple",
             "icon":["fab","apple"]
         } ,
         {
-            "name": "windows",
+            "name": "Windows",
             "icon":["fab","windows"]
-        } 
+        },
+        {
+            "name": "Artificial Intelligence",
+            "icon":["fas","brain"]
+        }
     ],
     "voluntaries": [{
             "title": "Trainer and clubmanagement",

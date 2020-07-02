@@ -6,7 +6,7 @@
 
 <div fxLayout="row wrap" fxLayout.xs="row wrap" fxLayoutGap.xs="2dpx" fxLayoutAlign="center center" >
     <mat-card *ngFor="let item of store.cvData.skills" class="logo-card">
-        <fa-icon [icon]="item.icon" class="fa-3x"></fa-icon>
+        <fa-icon [icon]="item.icon" [matTooltip]="item.name" class="fa-3x"></fa-icon>
     </mat-card>
 </div>
 

@@ -5,6 +5,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { StoreService } from "../../services/store.service";
+
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
