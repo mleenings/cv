@@ -1,6 +1,15 @@
 /* google fonts */
 @import 'assets/fonts/external_fonts.css';
 
+:body {
+    /* Colors */
+    --background-main-color: #303030;
+    --background-sidebar-color: #424242;
+    --header-text-color: #FFFFFF;
+    --cv-photo-color: rgba(255, 255, 255, .2);
+  }
+
+
 /* You can add global styles to this file, and also import other style files */
 
 html,
@@ -52,8 +61,23 @@ h2 {
     font-size: 1rem;
 }
 
+.mat-drawer-container {
+    background-color: var(--background-main-color); // header-color
+    color: var(--header-text-color); // text-color
+}
 
+.mat-drawer-inner-container{
+    // sidebar left
+    background-color: var(--background-sidebar-color);
+}
+.mat-card {
+    background-color:  var(--background-sidebar-color);
+    color: var(--header-text-color);
+}
 
+.mat-card-subtitle {
+    color: var(--header-text-color);
+}
 
 .full-h {
     min-height: 100vh;
@@ -82,7 +106,7 @@ h2 {
     width: 7rem;
     height: 7rem;
     border-color: red;
-    border: .5rem solid rgba(255, 255, 255, .2);
+    border: .5rem solid var(--cv-photo-color);
 
 }
 
@@ -120,7 +144,7 @@ h2 {
 
 
 .social {
-    color : rgba(255, 255, 255, .7) !important;
+    color : var(--header-text-color) !important;
     
 }
 

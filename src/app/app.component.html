@@ -14,9 +14,6 @@
                 <fa-icon [icon]="item.icon" class="fa-lg toolbar-icon"> </fa-icon>
             </a>
         </div>
-        
-        
-
     </mat-toolbar-row>
 </mat-toolbar>
 <mat-sidenav-container class="example-container">
@@ -37,6 +34,8 @@
                     </a>
                 </div>
             </div>
+            <div class="new-line"></div>
+            <fa-icon [icon]="faLightbulb" (click)="toggleTheme()" class="lightblub"></fa-icon>
         </div>
 
     </mat-sidenav>

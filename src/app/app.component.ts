@@ -2,6 +2,13 @@ import { Component, HostListener } from '@angular/core';
 import persoData from '../assets/data/perso.json';
 import { StoreService } from "./services/store.service";
 import { Title } from '@angular/platform-browser';
+import { Theme, light, dark } from "./theme/theme";
+import {
+  faLightbulb as faSolidLightbulb,
+  IconDefinition
+} from "@fortawesome/free-solid-svg-icons";
+import { faLightbulb as faRegularLightbulb } from "@fortawesome/free-regular-svg-icons";
+import { ThemeService } from "./theme/theme.service";
 
 
 @Component({
@@ -12,16 +19,21 @@ import { Title } from '@angular/platform-browser';
 export class AppComponent {
   title = 'cv-app';
   openedSidenav = false;
+  faLightbulb: IconDefinition;
+
   constructor(
     public store: StoreService,
-    private titleService: Title
+    private titleService: Title,
+    private themeService: ThemeService,
   ) {
     this.store.cvData = persoData;
     this.titleService.setTitle('| CV | ' + persoData.profile.lastname); 
+    this.themeService.setActiveTheme(dark);
   }
 
   ngOnInit(e) {
     this.onResize(e);
+    this.setLightbulb();
   }
 
   @HostListener('window:resize')
@@ -41,7 +53,25 @@ export class AppComponent {
     else {
       this.openedSidenav = false;
     }
-
   }
+
+  setLightbulb() {
+    if (this.themeService.isDarkTheme()) {
+      this.faLightbulb = faRegularLightbulb;
+    } else {
+      this.faLightbulb = faSolidLightbulb;
+    }
+  }
+
+  toggleTheme() {
+    if (this.themeService.isDarkTheme()) {
+      this.themeService.setLightTheme();
+    } else {
+      this.themeService.setDarkTheme();
+    }
+
+    this.setLightbulb();
+  }
+
 }
 
