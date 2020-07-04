@@ -2,6 +2,10 @@
     margin-bottom: 15px !important;
 }
 
+.lightblubWrapper {
+    background-color: var(--background-lightblub);
+}
+
 .lightblub {
     color: var(--header-text-color);
     cursor: pointer; 

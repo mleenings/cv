@@ -36,8 +36,8 @@
             </div>
             <div class="new-line"></div>
             <div fxLayout fxLayout.xs="row" fxLayoutGap="0.5vw" fxLayoutGap.xs="1vw">
-                <div class="mat-mini-fab">
-                    <fa-icon [icon]="faLightbulb" (click)="toggleTheme()" class="lightblub"></fa-icon>
+                <div class="mat-mini-fab lightblubWrapper">
+                    <fa-icon [icon]="faLightbulb" (click)="toggleTheme()" matTooltip="{{l10n.tooltip_theme}}" class="lightblub"></fa-icon>
                 </div>
                 <app-l10n color="default"></app-l10n>
             </div>

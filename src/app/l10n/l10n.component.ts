@@ -7,12 +7,16 @@ import { LocalizationService } from './l10n.service';
   styleUrls: ['./l10n.component.css'],
 })
 export class LocalizationComponent implements OnInit {
+  public l10n;
+  
   @Input() color = 'default';
   public l10n_languages = [];
 
   constructor(
     private localizationService: LocalizationService,
-  ) { }
+  ) {
+    this.localizationService.languageChanged.subscribe((data) => { this.l10n = data; });
+   }
 
   private getLocalization(): void {
     const all = this.localizationService.getAll();
@@ -23,7 +27,12 @@ export class LocalizationComponent implements OnInit {
     }
   }
 
+  private initLocalization(): void {
+    this.l10n = this.localizationService.getDefault();
+  }
+
   ngOnInit() {
+    this.initLocalization();
     this.getLocalization();
   }
 

@@ -10,7 +10,8 @@ export interface Theme {
         "--background-sidebar-color": "#F5F5F5",
         "--background-main-color": "#FFFFFF",
         "--header-text-color": "#4d4d4d",
-        "--cv-photo-color": "#424242",
+        "--cv-photo-color": "#779ecb",
+        "--background-lightblub": "none",
     }
   };
   
@@ -22,5 +23,6 @@ export interface Theme {
       "--background-main-color": "#424242",
       "--header-text-color": "#FFFFFF",
       "--cv-photo-color": "rgba(255, 255, 255, .2)",
+      "--background-lightblub": "#4d4d4d",
     }
   };

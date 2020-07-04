@@ -1,4 +1,4 @@
-<button class="language-selection" matTooltip="Select Language" matTooltipPosition="right" mat-button mat-mini-fab [matMenuTriggerFor]="appMenu" [color]=color>
+<button class="language-selection" matTooltip="{{l10n.tooltip_language}}" matTooltipPosition="right" mat-button mat-mini-fab [matMenuTriggerFor]="appMenu" [color]=color>
     <mat-icon aria-label="Select Language">translate</mat-icon>
     <mat-menu #appMenu="matMenu" yPosition="above">
       <button mat-menu-item (click)="changeLocalization(lang.id)" *ngFor="let lang of l10n_languages">{{lang.name}}</button>
