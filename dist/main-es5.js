@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- The content below is only a placeholder and can be replaced. -->\n<mat-toolbar *ngIf=\"!openedSidenav\">\n\n    <mat-toolbar-row>\n        <button mat-icon-button [matMenuTriggerFor]=\"menu\">\n            <img [src]=\"store.cvData.profile.photo\" alt=\"cv-photo-ico\" class=\"cv-photo-ico\">\n        </button>\n        <mat-menu #menu=\"matMenu\">\n        </mat-menu>\n        <!-- <span class=\"txt-toolbar\">{{store.cvData.profile.firstname}} {{store.cvData.profile.lastname}}</span> -->\n        <span class=\"toolbar-spacer\"></span>\n        <div class=\"bottom-right\" *ngFor=\"let item of this.store.cvData.social\">\n            <a [href]=\"item.link\" class=\"social\">\n                <fa-icon [icon]=\"item.icon\" class=\"fa-lg toolbar-icon\"> </fa-icon>\n            </a>\n        </div>\n        \n        \n\n    </mat-toolbar-row>\n</mat-toolbar>\n<mat-sidenav-container class=\"example-container\">\n    <mat-sidenav #sidenav mode=\"side\" [opened]=\"openedSidenav\" class=\"sidenav\" [fixedInViewport]=\"true\">\n        <div fxFlex fxLayout=\"column\" fxLayoutGap=\"0px\" fxLayoutAlign=\"center center\" class=\"container\">\n            <!-- content here -->\n            <div fxLayout=\" wrap\">\n                <div fxFlex=\"25\" fxLayout=\"column\" style=\"padding: 5px;\">\n                    <img [src]=\"store.cvData.profile.photo\" alt=\"cv-photo\" class=\"cv-photo\">\n                </div>\n\n            </div>\n            <!--  SOCIAL -->\n            <div fxLayout fxLayout.xs=\"row\" fxLayoutGap=\"0.5vw\" fxLayoutGap.xs=\"1vw\">\n                <div class=\"bottom-right\" *ngFor=\"let item of this.store.cvData.social\">\n                    <a [href]=\"item.link\" class=\"social\">\n                        <fa-icon [icon]=\"item.icon\" class=\"fa-lg\"> </fa-icon>\n                    </a>\n                </div>\n            </div>\n        </div>\n\n    </mat-sidenav>\n\n    <mat-sidenav-content>\n\n        <!-- ABOUT  -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-about></app-about>\n        </div>\n\n        <!-- EXPERIENCES -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-experiences></app-experiences>\n        </div>\n\n        <!-- EDUCATION -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-education></app-education>\n        </div>\n\n        <!-- SKILLS -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-skills></app-skills>\n        </div>\n\n        <!-- VOLUNTARY WORK -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-voluntary></app-voluntary>\n        </div>\n\n    </mat-sidenav-content>\n</mat-sidenav-container>\n\n<router-outlet></router-outlet>"
+module.exports = "<!-- The content below is only a placeholder and can be replaced. -->\n<mat-toolbar *ngIf=\"!openedSidenav\">\n\n    <mat-toolbar-row>\n        <button mat-icon-button [matMenuTriggerFor]=\"menu\">\n            <img [src]=\"store.cvData.profile.photo\" alt=\"cv-photo-ico\" class=\"cv-photo-ico\">\n        </button>\n        <mat-menu #menu=\"matMenu\">\n        </mat-menu>\n        <!-- <span class=\"txt-toolbar\">{{store.cvData.profile.firstname}} {{store.cvData.profile.lastname}}</span> -->\n        <span class=\"toolbar-spacer\"></span>\n        <div class=\"bottom-right\" *ngFor=\"let item of this.store.cvData.social\">\n            <a [href]=\"item.link\" class=\"social\">\n                <fa-icon [icon]=\"item.icon\" class=\"fa-lg toolbar-icon\"> </fa-icon>\n            </a>\n        </div>\n    </mat-toolbar-row>\n</mat-toolbar>\n<mat-sidenav-container class=\"example-container\">\n    <mat-sidenav #sidenav mode=\"side\" [opened]=\"openedSidenav\" class=\"sidenav\" [fixedInViewport]=\"true\">\n        <div fxFlex fxLayout=\"column\" fxLayoutGap=\"0px\" fxLayoutAlign=\"center center\" class=\"container\">\n            <!-- content here -->\n            <div fxLayout=\" wrap\">\n                <div fxFlex=\"25\" fxLayout=\"column\" style=\"padding: 5px;\">\n                    <img [src]=\"store.cvData.profile.photo\" alt=\"cv-photo\" class=\"cv-photo\">\n                </div>\n\n            </div>\n            <!--  SOCIAL -->\n            <div fxLayout fxLayout.xs=\"row\" fxLayoutGap=\"0.5vw\" fxLayoutGap.xs=\"1vw\">\n                <div class=\"bottom-right\" *ngFor=\"let item of this.store.cvData.social\">\n                    <a [href]=\"item.link\" class=\"social\">\n                        <fa-icon [icon]=\"item.icon\" class=\"fa-lg\"> </fa-icon>\n                    </a>\n                </div>\n            </div>\n            <div class=\"new-line\"></div>\n            <fa-icon [icon]=\"faLightbulb\" (click)=\"toggleTheme()\" class=\"lightblub\"></fa-icon>\n        </div>\n\n    </mat-sidenav>\n\n    <mat-sidenav-content>\n\n        <!-- ABOUT  -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-about></app-about>\n        </div>\n\n        <!-- EXPERIENCES -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-experiences></app-experiences>\n        </div>\n\n        <!-- EDUCATION -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-education></app-education>\n        </div>\n\n        <!-- SKILLS -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-skills></app-skills>\n        </div>\n\n        <!-- VOLUNTARY WORK -->\n        <div fxLayout=\"column wrap\" fxLayout.xs=\"column\" fxLayoutAlign=\"center\" class=\"full-h\">\n            <app-voluntary></app-voluntary>\n        </div>\n\n    </mat-sidenav-content>\n</mat-sidenav-container>\n\n<router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -129,7 +129,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */"
+module.exports = ".new-line {\n  margin-bottom: 15px !important;\n}\n\n.lightblub {\n  color: var(--header-text-color);\n  cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9kL2Rldi9wcm9qZWN0cy9naXRodWIvY3Yvc3JjL2FwcC9hcHAuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLDhCQUFBO0FDQ0o7O0FERUE7RUFDSSwrQkFBQTtFQUNBLGVBQUE7QUNDSiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5uZXctbGluZSB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4ICFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5saWdodGJsdWIge1xyXG4gICAgY29sb3I6IHZhcigtLWhlYWRlci10ZXh0LWNvbG9yKTtcclxuICAgIGN1cnNvcjogcG9pbnRlcjsgXHJcbn0iLCIubmV3LWxpbmUge1xuICBtYXJnaW4tYm90dG9tOiAxNXB4ICFpbXBvcnRhbnQ7XG59XG5cbi5saWdodGJsdWIge1xuICBjb2xvcjogdmFyKC0taGVhZGVyLXRleHQtY29sb3IpO1xuICBjdXJzb3I6IHBvaW50ZXI7XG59Il19 */"
 
 /***/ }),
 
@@ -149,22 +149,33 @@ __webpack_require__.r(__webpack_exports__);
 var _assets_data_perso_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/data/perso.json */ "./src/assets/data/perso.json", 1);
 /* harmony import */ var _services_store_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./services/store.service */ "./src/app/services/store.service.ts");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _theme_theme__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./theme/theme */ "./src/app/theme/theme.ts");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fortawesome/free-regular-svg-icons */ "./node_modules/@fortawesome/free-regular-svg-icons/index.es.js");
+/* harmony import */ var _theme_theme_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./theme/theme.service */ "./src/app/theme/theme.service.ts");
+
+
+
+
 
 
 
 
 
 var AppComponent = /** @class */ (function () {
-    function AppComponent(store, titleService) {
+    function AppComponent(store, titleService, themeService) {
         this.store = store;
         this.titleService = titleService;
+        this.themeService = themeService;
         this.title = 'cv-app';
         this.openedSidenav = false;
         this.store.cvData = _assets_data_perso_json__WEBPACK_IMPORTED_MODULE_2__;
         this.titleService.setTitle('| CV | ' + _assets_data_perso_json__WEBPACK_IMPORTED_MODULE_2__.profile.lastname);
+        this.themeService.setActiveTheme(_theme_theme__WEBPACK_IMPORTED_MODULE_5__["dark"]);
     }
     AppComponent.prototype.ngOnInit = function (e) {
         this.onResize(e);
+        this.setLightbulb();
     };
     AppComponent.prototype.onResize = function (event) {
         var width;
@@ -182,9 +193,27 @@ var AppComponent = /** @class */ (function () {
             this.openedSidenav = false;
         }
     };
+    AppComponent.prototype.setLightbulb = function () {
+        if (this.themeService.isDarkTheme()) {
+            this.faLightbulb = _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_7__["faLightbulb"];
+        }
+        else {
+            this.faLightbulb = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_6__["faLightbulb"];
+        }
+    };
+    AppComponent.prototype.toggleTheme = function () {
+        if (this.themeService.isDarkTheme()) {
+            this.themeService.setLightTheme();
+        }
+        else {
+            this.themeService.setDarkTheme();
+        }
+        this.setLightbulb();
+    };
     AppComponent.ctorParameters = function () { return [
         { type: _services_store_service__WEBPACK_IMPORTED_MODULE_3__["StoreService"] },
-        { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["Title"] }
+        { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["Title"] },
+        { type: _theme_theme_service__WEBPACK_IMPORTED_MODULE_8__["ThemeService"] }
     ]; };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"])('window:resize'),
@@ -199,7 +228,8 @@ var AppComponent = /** @class */ (function () {
             styles: [__webpack_require__(/*! ./app.component.scss */ "./src/app/app.component.scss")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_store_service__WEBPACK_IMPORTED_MODULE_3__["StoreService"],
-            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["Title"]])
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["Title"],
+            _theme_theme_service__WEBPACK_IMPORTED_MODULE_8__["ThemeService"]])
     ], AppComponent);
     return AppComponent;
 }());
@@ -448,7 +478,7 @@ var ExperiencesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".logo-card {\n  width: 14vw;\n  text-align: center;\n}\n\nfa-icon:hover {\n  color: #779ecb !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvZC9kZXYvcHJvamVjdHMvZ2l0aHViL2N2L3NyYy9hcHAvY29tcG9uZW50cy9za2lsbHMvc2tpbGxzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3NraWxscy9za2lsbHMuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxXQUFBO0VBQ0Esa0JBQUE7QUNDSjs7QURJQTtFQUNJLHlCQUFBO0FDREoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NraWxscy9za2lsbHMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9nby1jYXJkIHtcbiAgICB3aWR0aDogMTR2dztcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cblxuXG5mYS1pY29uOmhvdmVyIHtcbiAgICBjb2xvcjogIzc3OWVjYiAhaW1wb3J0YW50O1xufSIsIi5sb2dvLWNhcmQge1xuICB3aWR0aDogMTR2dztcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG5mYS1pY29uOmhvdmVyIHtcbiAgY29sb3I6ICM3NzllY2IgIWltcG9ydGFudDtcbn0iXX0= */"
+module.exports = ".logo-card {\n  width: 14vw;\n  text-align: center;\n}\n\nfa-icon:hover {\n  color: #779ecb !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9kL2Rldi9wcm9qZWN0cy9naXRodWIvY3Yvc3JjL2FwcC9jb21wb25lbnRzL3NraWxscy9za2lsbHMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvc2tpbGxzL3NraWxscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFdBQUE7RUFDQSxrQkFBQTtBQ0NKOztBRElBO0VBQ0kseUJBQUE7QUNESiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2tpbGxzL3NraWxscy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5sb2dvLWNhcmQge1xuICAgIHdpZHRoOiAxNHZ3O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuXG5cbmZhLWljb246aG92ZXIge1xuICAgIGNvbG9yOiAjNzc5ZWNiICFpbXBvcnRhbnQ7XG59IiwiLmxvZ28tY2FyZCB7XG4gIHdpZHRoOiAxNHZ3O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG59XG5cbmZhLWljb246aG92ZXIge1xuICBjb2xvcjogIzc3OWVjYiAhaW1wb3J0YW50O1xufSJdfQ== */"
 
 /***/ }),
 
@@ -514,7 +544,7 @@ var SkillsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".example-header-image {\n  background-position: inherit !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9tbnQvZC9kZXYvcHJvamVjdHMvZ2l0aHViL2N2L3NyYy9hcHAvY29tcG9uZW50cy92b2x1bnRhcnkvdm9sdW50YXJ5LmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21wb25lbnRzL3ZvbHVudGFyeS92b2x1bnRhcnkuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSx1Q0FBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy92b2x1bnRhcnkvdm9sdW50YXJ5LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmV4YW1wbGUtaGVhZGVyLWltYWdlIHtcclxuICAgIGJhY2tncm91bmQtcG9zaXRpb246IGluaGVyaXQgIWltcG9ydGFudDtcclxufSIsIi5leGFtcGxlLWhlYWRlci1pbWFnZSB7XG4gIGJhY2tncm91bmQtcG9zaXRpb246IGluaGVyaXQgIWltcG9ydGFudDtcbn0iXX0= */"
+module.exports = ".example-header-image {\n  background-position: inherit !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9kL2Rldi9wcm9qZWN0cy9naXRodWIvY3Yvc3JjL2FwcC9jb21wb25lbnRzL3ZvbHVudGFyeS92b2x1bnRhcnkuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvdm9sdW50YXJ5L3ZvbHVudGFyeS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHVDQUFBO0FDQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3ZvbHVudGFyeS92b2x1bnRhcnkuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhhbXBsZS1oZWFkZXItaW1hZ2Uge1xyXG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogaW5oZXJpdCAhaW1wb3J0YW50O1xyXG59IiwiLmV4YW1wbGUtaGVhZGVyLWltYWdlIHtcbiAgYmFja2dyb3VuZC1wb3NpdGlvbjogaW5oZXJpdCAhaW1wb3J0YW50O1xufSJdfQ== */"
 
 /***/ }),
 
@@ -585,6 +615,97 @@ var StoreService = /** @class */ (function () {
     return StoreService;
 }());
 
+
+
+/***/ }),
+
+/***/ "./src/app/theme/theme.service.ts":
+/*!****************************************!*\
+  !*** ./src/app/theme/theme.service.ts ***!
+  \****************************************/
+/*! exports provided: ThemeService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemeService", function() { return ThemeService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./theme */ "./src/app/theme/theme.ts");
+
+
+
+var ThemeService = /** @class */ (function () {
+    function ThemeService() {
+        this.active = _theme__WEBPACK_IMPORTED_MODULE_2__["dark"];
+        this.availableThemes = [_theme__WEBPACK_IMPORTED_MODULE_2__["light"], _theme__WEBPACK_IMPORTED_MODULE_2__["dark"]];
+        this.stylesBasePath = "node_modules/@angular/material/prebuilt-themes/";
+    }
+    ThemeService.prototype.getAvailableThemes = function () {
+        return this.availableThemes;
+    };
+    ThemeService.prototype.getActiveTheme = function () {
+        return this.active;
+    };
+    ThemeService.prototype.isDarkTheme = function () {
+        return this.active.name === _theme__WEBPACK_IMPORTED_MODULE_2__["dark"].name;
+    };
+    ThemeService.prototype.setDarkTheme = function () {
+        this.setActiveTheme(_theme__WEBPACK_IMPORTED_MODULE_2__["dark"]);
+    };
+    ThemeService.prototype.setLightTheme = function () {
+        this.setActiveTheme(_theme__WEBPACK_IMPORTED_MODULE_2__["light"]);
+    };
+    ThemeService.prototype.setActiveTheme = function (theme) {
+        var _this = this;
+        this.active = theme;
+        Object.keys(this.active.properties).forEach(function (property) {
+            document.documentElement.style.setProperty(property, _this.active.properties[property]);
+        });
+    };
+    ThemeService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        })
+    ], ThemeService);
+    return ThemeService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/theme/theme.ts":
+/*!********************************!*\
+  !*** ./src/app/theme/theme.ts ***!
+  \********************************/
+/*! exports provided: light, dark */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "light", function() { return light; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "dark", function() { return dark; });
+var light = {
+    name: "light",
+    properties: {
+        "--background-color": "#FFFFFF",
+        "--background-sidebar-color": "#F5F5F5",
+        "--background-main-color": "#FFFFFF",
+        "--header-text-color": "#4d4d4d",
+        "--cv-photo-color": "#424242",
+    }
+};
+var dark = {
+    name: "dark",
+    properties: {
+        "--background-color": "#424242",
+        "--background-sidebar-color": "#424242",
+        "--background-main-color": "#424242",
+        "--header-text-color": "#FFFFFF",
+        "--cv-photo-color": "rgba(255, 255, 255, .2)",
+    }
+};
 
 
 /***/ }),
@@ -664,7 +785,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /mnt/d/dev/projects/github/cv/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /d/dev/projects/github/cv/src/main.ts */"./src/main.ts");
 
 
 /***/ })
