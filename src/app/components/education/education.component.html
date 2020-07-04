@@ -4,9 +4,9 @@
         <div fxFlex="100" fxFlex.md="100" fxFlex.sm="100" fxFlex.xs="100" fxLayout="column" style="padding: 5px;">
             <!-- material cntent here -->
             <h1>
-                EDUCATION
+                {{l10n.education}}
             </h1>
-            <mat-card *ngFor="let ex of store.cvData.educations" class="card-element card-text">
+            <mat-card *ngFor="let ex of l10n.educations" class="card-element card-text">
                 <mat-card-header>
                     <div mat-card-avatar class="example-header-image"
                         [style.background-image]="'url(' + ex.picture + ')'"></div>

@@ -23,6 +23,9 @@ import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { VoluntaryComponent } from './components/voluntary/voluntary.component';
 
+import { LocalizationService }      from './l10n/l10n.service';
+import { LocalizationComponent }    from './l10n/l10n.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +34,8 @@ import { VoluntaryComponent } from './components/voluntary/voluntary.component';
     ExperiencesComponent,
     EducationComponent,
     SkillsComponent,
-    VoluntaryComponent
+    VoluntaryComponent,
+    LocalizationComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +52,7 @@ import { VoluntaryComponent } from './components/voluntary/voluntary.component';
     MatTooltipModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [LocalizationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

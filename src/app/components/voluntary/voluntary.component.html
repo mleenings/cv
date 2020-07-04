@@ -5,9 +5,9 @@
     <div fxLayout=" wrap">
         <div fxFlex="100" fxFlex.md="100" fxFlex.sm="100" fxFlex.xs="100" fxLayout="column" style="padding: 5px;">
             <h1>
-                VOLUNTARY WORK
+                {{l10n.voluntary}}
             </h1>
-            <mat-card *ngFor="let ex of store.cvData.voluntaries" class="card-element card-text">
+            <mat-card *ngFor="let ex of l10n.voluntaries" class="card-element card-text">
                 <mat-card-header>
                     <div mat-card-avatar class="example-header-image"
                         [style.background-image]="'url(' + ex.picture + ')'">
