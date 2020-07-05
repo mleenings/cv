@@ -1,6 +1,8 @@
 export const L10N = {
     'EN': {
         language_name: 'English',
+        "tooltip_language" : "Select Language",
+        "tooltip_theme" : "Change Theme",
         "profile": {
             "firstname": "MARCEL",
             "lastname": " LEENINGS ",
@@ -28,7 +30,7 @@ export const L10N = {
                 "icon":["fab","github"]
             }
         ],
-        "experience": "BERUFSERFAHRUNGEN",
+        "experience": "EXPERIENCE",
         "experiences": [{
                 "company": "Bechtle",
                 "picture": "https://www.bechtle.com/.resources/bechtle-ui/webresources/assets/img/logo-bechtle.png",
@@ -178,6 +180,8 @@ export const L10N = {
     },
     'DE': {
         language_name: 'Deutsch',
+        "tooltip_language" : "Sprache auswählen",
+        "tooltip_theme" : "Theme wechseln",
         "profile": {
             "firstname": "MARCEL",
             "lastname": " LEENINGS ",
@@ -205,7 +209,7 @@ export const L10N = {
                 "icon":["fab","github"]
             }
         ],
-        "experience": "BERUFSERFAHRUNGEN",
+        "experience": "ERFAHRUNGEN",
         "experiences": [{
                 "company": "Bechtle",
                 "picture": "https://www.bechtle.com/.resources/bechtle-ui/webresources/assets/img/logo-bechtle.png",
