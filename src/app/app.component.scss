@@ -4,6 +4,14 @@
 
 .lightblubWrapper {
     background-color: var(--background-lightblub);
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .lightblubWrapper {
+      max-width: 36px;
+      max-height: 36px;
+    }
 }
 
 .lightblub {

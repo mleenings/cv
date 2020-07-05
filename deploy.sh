@@ -1,2 +1,2 @@
-ng build --prod --base-href https://mleenings.github.io/cv/
-ngh --no-silent
+sudo ng build --prod --base-href https://mleenings.github.io/cv/
+sudo ngh --no-silent

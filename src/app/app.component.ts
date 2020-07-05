@@ -1,5 +1,4 @@
 import { Component, HostListener } from '@angular/core';
-import persoData from '../assets/data/perso.json';
 import { StoreService } from "./services/store.service";
 import { Title } from '@angular/platform-browser';
 import { Theme, light, dark } from "./theme/theme";
@@ -28,9 +27,7 @@ export class AppComponent {
     private titleService: Title,
     private themeService: ThemeService,
     private localizationService: LocalizationService
-  ) {
-    this.store.cvData = persoData;
-    this.titleService.setTitle('| CV | ' + persoData.profile.lastname); 
+  ) {  
     this.themeService.setActiveTheme(dark);
     this.localizationService.languageChanged.subscribe((data) => { this.l10n = data; });
   }
@@ -43,12 +40,12 @@ export class AppComponent {
     this.onResize(e);
     this.getLocalization();
     this.setLightbulb();
+    this.titleService.setTitle('| CV | ' + this.l10n.profile.lastname);
   }
 
   @HostListener('window:resize')
   onResize(event) {
     let width;
-
     if (event != undefined) {
       width = event.target.innerWidth;
     }
@@ -77,7 +74,6 @@ export class AppComponent {
     } else {
       this.themeService.setDarkTheme();
     }
-
     this.setLightbulb();
   }
 

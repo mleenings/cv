@@ -14,6 +14,13 @@
                 <fa-icon [icon]="item.icon" class="fa-lg toolbar-icon"> </fa-icon>
             </a>
         </div>
+        <span class="toolbar-spacer"></span>
+        <div class="bottom-right">
+            <div class="mat-mini-fab lightblubWrapper">
+                <fa-icon [icon]="faLightbulb" (click)="toggleTheme()" matTooltip="{{l10n.tooltip_theme}}" class="lightblub"></fa-icon>
+            </div>
+            <app-l10n color="default"></app-l10n>
+        </div>
     </mat-toolbar-row>
 </mat-toolbar>
 <mat-sidenav-container class="example-container">
@@ -35,11 +42,14 @@
                 </div>
             </div>
             <div class="new-line"></div>
+            <!-- SETTINGS -->
             <div fxLayout fxLayout.xs="row" fxLayoutGap="0.5vw" fxLayoutGap.xs="1vw">
-                <div class="mat-mini-fab lightblubWrapper">
-                    <fa-icon [icon]="faLightbulb" (click)="toggleTheme()" matTooltip="{{l10n.tooltip_theme}}" class="lightblub"></fa-icon>
+                <div class="bottom-right">
+                    <div class="mat-mini-fab lightblubWrapper">
+                        <fa-icon [icon]="faLightbulb" (click)="toggleTheme()" matTooltip="{{l10n.tooltip_theme}}" class="lightblub"></fa-icon>
+                    </div>
+                    <app-l10n color="default"></app-l10n>
                 </div>
-                <app-l10n color="default"></app-l10n>
             </div>
         </div>
 
