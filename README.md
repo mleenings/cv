@@ -14,7 +14,9 @@ simple personal resume application created by Angular and Github pages.
 
 ## PREVIEW
 
-![preview animation](src/assets/img/preview.png)
+![preview image](assets/preview.png){:height="20%" width="20%"}
+
+<img src="assets/preview.gif" width=50%>
 
 
 ## USAGE
