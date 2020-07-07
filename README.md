@@ -1,7 +1,7 @@
 # Personal resume by Angular
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/98ca663bec894044971be473ef6f8069)](https://www.codacy.com/manual/mleenings/cv?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mleenings/cv&amp;utm_campaign=Badge_Grade)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/mleenings/cv/graphs/commit-activity)
 [![HitCount](http://hits.dwyl.io/mleenings/cv.svg)](http://hits.dwyl.io/mleenings/cv)
 
 
