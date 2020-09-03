@@ -32,11 +32,23 @@ export const L10N = {
         ],
         "experience": "EXPERIENCE",
         "experiences": [{
+            "company": "Collenda GmbH",
+            "picture": "https://collenda.com/fonts/monogram-collenda-green.svg",
+            "location": "Dusseldorf, Germany",
+            "title": "Software developer",
+            "period": "DEC 2019 - TODAY",
+            "description": [
+                "Java Fullstack developer",
+                "Working inhouse at the credit life cycle for banks. ",
+                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse"
+            ]
+            },
+            {
                 "company": "Bechtle",
                 "picture": "https://www.bechtle.com/.resources/bechtle-ui/webresources/assets/img/logo-bechtle.png",
                 "location": "Bonn, Germany",
                 "title": "Software developer",
-                "period": "OCT 2019 - TODAY",
+                "period": "OCT 2019 - NOV 2020",
                 "description": [
                     "Java Fullstack developer",
                     "Working at a customer for banking supervision in the public sector. ",
@@ -211,11 +223,23 @@ export const L10N = {
         ],
         "experience": "ERFAHRUNGEN",
         "experiences": [{
+            "company": "Collenda GmbH",
+            "picture": "https://collenda.com/fonts/monogram-collenda-green.svg",
+            "location": "Düsseldorf, Germany",
+            "title": "Software Entwickler",
+            "period": "DEZ 2019 - HEUTE",
+            "description": [
+                "Java Fullstack Entwickler",
+                "Entwicklung einer Software für den gesamten Kreditlebenszyklus für Banken.",
+                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse"
+            ]
+            },
+            {
                 "company": "Bechtle",
                 "picture": "https://www.bechtle.com/.resources/bechtle-ui/webresources/assets/img/logo-bechtle.png",
                 "location": "Bonn, Deutschland",
                 "title": "Software Entwickler",
-                "period": "OKT 2019 - HEUTE",
+                "period": "OKT 2019 - NOV 2020",
                 "description": [
                     "Java Fullstack Entwickler",
                     "Entwicklung einer Anwendung für den Öffentlichen Sektor zur Bankenüberwachung, beim Kunden.",
