@@ -33,7 +33,7 @@ export const L10N = {
         "experience": "EXPERIENCE",
         "experiences": [{
             "company": "Collenda GmbH",
-            "picture": "https://collenda.com/fonts/monogram-collenda-green.svg",
+            "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Dusseldorf, Germany",
             "title": "Software developer",
             "period": "DEC 2019 - TODAY",
