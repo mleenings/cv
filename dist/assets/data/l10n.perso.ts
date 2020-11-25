@@ -33,15 +33,16 @@ export const L10N = {
         "experience": "EXPERIENCE",
         "experiences": [{
             "company": "Collenda GmbH",
-            "picture": "https://collenda.com/fonts/monogram-collenda-green.svg",
+            "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Dusseldorf, Germany",
             "title": "Software developer",
             "period": "DEC 2019 - TODAY",
             "description": [
                 "Java Fullstack developer",
-                "Working inhouse at the credit life cycle for banks. ",
-                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse"
-            ]
+                "Working inhouse at the credit life cycle for banks.",
+                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse",
+                "Info: Due to a pandemic and severe economic consequences for the company, he did not start the job."
+            ],
             },
             {
                 "company": "Bechtle",
@@ -57,7 +58,7 @@ export const L10N = {
             },
             {
                 "company": "Senacor",
-                "picture": "https://media-exp1.licdn.com/dms/image/C4E0BAQHTQptOLzZsOw/company-logo_200_200/0?e=1601510400&v=beta&t=XcpbPyzP04_5UNN4fEfA9XH-4XgvLq7lGUfNDdGtdMo",
+                "picture": "https://media-exp1.licdn.com/dms/image/C4E0BAQHTQptOLzZsOw/company-logo_200_200/0/1519888622907?e=1614211200&v=beta&t=nOGVDsuS1Ky5XW1BfgqzVfryKRmHqr66bcr2BHGIjBY",
                 "location": "Bonn, Germany",
                 "title": "Software developer",
                 "period": "MAR 2017 - SEP 2019",
@@ -231,7 +232,8 @@ export const L10N = {
             "description": [
                 "Java Fullstack Entwickler",
                 "Entwicklung einer Software für den gesamten Kreditlebenszyklus für Banken.",
-                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse"
+                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse",
+                "Info: Aufgrund einer Pandemie und schweren wirtschaftlichen Folgen für das Unternehmen, den Job nicht angetreten."
             ]
             },
             {
