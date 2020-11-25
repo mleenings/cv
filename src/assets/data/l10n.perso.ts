@@ -39,9 +39,10 @@ export const L10N = {
             "period": "DEC 2019 - TODAY",
             "description": [
                 "Java Fullstack developer",
-                "Working inhouse at the credit life cycle for banks. ",
-                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse"
-            ]
+                "Working inhouse at the credit life cycle for banks.",
+                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse",
+                "Info: Due to a pandemic and severe economic consequences for the company, he did not start the job."
+            ],
             },
             {
                 "company": "Bechtle",
@@ -231,7 +232,8 @@ export const L10N = {
             "description": [
                 "Java Fullstack Entwickler",
                 "Entwicklung einer Software für den gesamten Kreditlebenszyklus für Banken.",
-                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse"
+                "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse",
+                "Info: Aufgrund einer Pandemie und schweren wirtschaftlichen Folgen für das Unternehmen, den Job nicht angetreten."
             ]
             },
             {
