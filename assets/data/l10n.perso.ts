@@ -8,7 +8,7 @@ export const L10N = {
             "lastname": " LEENINGS ",
             "title": "Software developer",
             "photo": "./assets/img/avataaars.png",
-            "city": "Bonn, Germany",
+            "city": "Kerken, Germany",
             "phone": "",
             "mail": "marcel.leenings@gmail.com",
             "summary": "Software developer with with excellent math skills and a love of sport."
@@ -200,7 +200,7 @@ export const L10N = {
             "lastname": " LEENINGS ",
             "title": "Software-Entwickler",
             "photo": "./assets/img/avataaars.png",
-            "city": "Bonn, Deutschland",
+            "city": "Kerken, Deutschland",
             "phone": "",
             "mail": "marcel.leenings@gmail.com",
             "summary": "Software-Entwickler mit hervorangenden Mathematik Fähigkeiten und einer Liebe zum Sport."
