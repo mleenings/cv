@@ -36,12 +36,12 @@ export const L10N = {
             "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Dusseldorf, Germany",
             "title": "Software developer",
-            "period": "DEC 2019 - TODAY",
+            "period": "DEC 2020 - TODAY",
             "description": [
                 "Java Fullstack developer",
                 "Working inhouse at the credit life cycle for banks.",
                 "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse",
-                "Info: Due to a pandemic and severe economic consequences for the company, he did not start the job."
+                "Info: Due to the COVID-19 pandemic and severe economic consequences for the company, he did not start the job."
             ],
             },
             {
@@ -228,12 +228,12 @@ export const L10N = {
             "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Düsseldorf, Germany",
             "title": "Software Entwickler",
-            "period": "DEZ 2019 - HEUTE",
+            "period": "DEZ 2020 - HEUTE",
             "description": [
                 "Java Fullstack Entwickler",
                 "Entwicklung einer Software für den gesamten Kreditlebenszyklus für Banken.",
                 "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse",
-                "Info: Aufgrund einer Pandemie und schweren wirtschaftlichen Folgen für das Unternehmen, den Job nicht angetreten."
+                "Info: Aufgrund der COVID-19 Pandemie und schweren wirtschaftlichen Folgen für das Unternehmen, den Job nicht angetreten."
             ]
             },
             {
