@@ -225,7 +225,7 @@ export const L10N = {
         "experience": "ERFAHRUNGEN",
         "experiences": [{
             "company": "Collenda GmbH",
-            "picture": "https://collenda.com/fonts/monogram-collenda-green.svg",
+            "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Düsseldorf, Germany",
             "title": "Software Entwickler",
             "period": "DEZ 2019 - HEUTE",
@@ -250,7 +250,7 @@ export const L10N = {
             },
             {
                 "company": "Senacor",
-                "picture": "https://media-exp1.licdn.com/dms/image/C4E0BAQHTQptOLzZsOw/company-logo_200_200/0?e=1601510400&v=beta&t=XcpbPyzP04_5UNN4fEfA9XH-4XgvLq7lGUfNDdGtdMo",
+                "picture": "https://media-exp1.licdn.com/dms/image/C4E0BAQHTQptOLzZsOw/company-logo_200_200/0/1519888622907?e=1614211200&v=beta&t=nOGVDsuS1Ky5XW1BfgqzVfryKRmHqr66bcr2BHGIjBY",
                 "location": "Bonn, Deutschland",
                 "title": "Software Entwickler",
                 "period": "MRZ 2017 - SEP 2019",
