@@ -32,17 +32,38 @@ export const L10N = {
         ],
         "experience": "EXPERIENCE",
         "experiences": [{
+            "company": "adesso SE",
+            "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFq_-3lDAu5Dw/company-logo_200_200/0/1556534809219?e=1616630400&v=beta&t=1Sc3JwIIVflRvtd2lJp0wacDI2UisNZG8m4dvvKyzYM",
+            "location": "Essen, Germany",
+            "title": "Software developer",
+            "period": "FEB 2021 - today",
+            "description": [
+                "Java Fullstack developer",
+                "Working inhouse at life science projects",
+                "Tech-Stack: Angular, Java, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, IntelliJ",
+            ]
+            },
+            {
+                "company": "no company",
+                "picture" : "./assets/img/ML.png",
+                "title" : "Looking for work & further education",
+                "period": "JAN 2020",
+                "description": [
+                    "further education: Spring Cloud, Angular",
+                ]
+            },
+            {
             "company": "Collenda GmbH",
             "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Dusseldorf, Germany",
             "title": "Software developer",
-            "period": "DEC 2020 - TODAY",
+            "period": "DEC 2020",
             "description": [
                 "Java Fullstack developer",
                 "Working inhouse at the credit life cycle for banks.",
                 "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse",
-                "Info: Due to the COVID-19 pandemic and severe economic consequences for the company, he did not start the job."
-            ],
+                "Fired: Because of the COVID-19 pandemic and severe economic consequences for the company"
+            ]
             },
             {
                 "company": "Bechtle",
@@ -223,7 +244,29 @@ export const L10N = {
             }
         ],
         "experience": "ERFAHRUNGEN",
-        "experiences": [{
+        "experiences": [
+            {
+                "company": "adesso SE",
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFq_-3lDAu5Dw/company-logo_200_200/0/1556534809219?e=1616630400&v=beta&t=1Sc3JwIIVflRvtd2lJp0wacDI2UisNZG8m4dvvKyzYM",
+                "location": "Essen, Germany",
+                "title": "Software Entwickler",
+                "period": "FEB 2021 - heute",
+                "description": [
+                    "Java Fullstack Entwickler",
+                    "Inhouse Softwareentwicklung von Life-Science Projekten",
+                    "Tech-Stack: Angular, Java, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, IntelliJ",
+                ]
+            },
+            {
+                "company": "keine Firma",
+                "picture" : "./assets/img/ML.png",
+                "title" : "Jobsuche & Weiterbildung",
+                "period": "JAN 2020",
+                "description": [
+                    "Weiterbildung: Spring Cloud, Angular",
+                ]
+            },
+            {
             "company": "Collenda GmbH",
             "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Düsseldorf, Germany",
