@@ -36,7 +36,7 @@ export const L10N = {
             "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFq_-3lDAu5Dw/company-logo_200_200/0/1556534809219?e=1616630400&v=beta&t=1Sc3JwIIVflRvtd2lJp0wacDI2UisNZG8m4dvvKyzYM",
             "location": "Essen, Germany",
             "title": "Software developer",
-            "period": "FEB 2021 - today",
+            "period": "FEB 2021 - TODAY",
             "description": [
                 "Java Fullstack developer",
                 "Working inhouse at life science projects",
@@ -67,7 +67,7 @@ export const L10N = {
             },
             {
                 "company": "Bechtle",
-                "picture": "https://www.bechtle.com/.resources/bechtle-ui/webresources/assets/img/logo-bechtle.png",
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQHkzBPQUvGjBg/company-logo_200_200/0/1536224093342?e=1617235200&v=beta&t=dpf0Eko0aVI0T0FxuF19XLGHWnshOHpLf8Kb2zlxfAg",
                 "location": "Bonn, Germany",
                 "title": "Software developer",
                 "period": "OCT 2019 - NOV 2020",
@@ -91,7 +91,7 @@ export const L10N = {
             },
             {
                 "company": "RWTH Aachen",
-                "picture": "https://www.itc.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaafpoycw&w=223&q=77&meta=0",
+                "picture": "https://media-exp1.licdn.com/dms/image/C510BAQEATKN6xf-EkA/company-logo_200_200/0/1519856450337?e=1617235200&v=beta&t=F6dTg5H6a1Sds9I4zQ7yHJJSH6hCQyQB2i-wwmv_8AQ",
                 "location": "Aachen, Germany",
                 "title": "Software developer (Scientific Assistant)",
                 "period": "SEP 2014 - FEB 2017",
@@ -109,7 +109,7 @@ export const L10N = {
                 "degree": "Master of Science",
                 "period": "SEP 2014 - JAN 2017",
                 "university": "FH Aachen",
-                "picture": "https://www.fh-aachen.de/fileadmin/template/pics/logo_alt/logo-FH.png"
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQG3bIlVpg9_Yw/company-logo_200_200/0/1549184192766?e=1617235200&v=beta&t=Ug3fCOdUCN_tFjqlb-cjpsj1ZZVdDS9neH-wmBRZpoE"
             },
             {
                 "title": "Bachelor's degree in Scientific Programming",
@@ -117,7 +117,7 @@ export const L10N = {
                 "degree": "Bachelor of Science",
                 "period": "SEP 2011 - AUG 2014",
                 "university": "FH Aachen",
-                "picture": "https://www.fh-aachen.de/fileadmin/template/pics/logo_alt/logo-FH.png"
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQG3bIlVpg9_Yw/company-logo_200_200/0/1549184192766?e=1617235200&v=beta&t=Ug3fCOdUCN_tFjqlb-cjpsj1ZZVdDS9neH-wmBRZpoE"
             },
             {
                 "title": "Mathematisch-technischer Softwareentwickler",
@@ -125,7 +125,7 @@ export const L10N = {
                 "degree": "IHK Training as 'Mathematisch-technischer Softwareentwickler'",
                 "period": "SEP 2011 - AUG 2014",
                 "university": "INFORM GmbH",
-                "picture": "https://www.inform-software.de/typo3conf/ext/mmpackage/Resources/Public/Images/inform-logo.png"
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQEwhR1nxr8JJQ/company-logo_200_200/0/1550648407449?e=1617235200&v=beta&t=fHXerBOOqL0QFD8ERVQaP1Hwg88GLe4tIrbHq-HI5mg"
             }
         ],
         "skill": "SKILLS",
@@ -250,7 +250,7 @@ export const L10N = {
                 "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFq_-3lDAu5Dw/company-logo_200_200/0/1556534809219?e=1616630400&v=beta&t=1Sc3JwIIVflRvtd2lJp0wacDI2UisNZG8m4dvvKyzYM",
                 "location": "Essen, Germany",
                 "title": "Software Entwickler",
-                "period": "FEB 2021 - heute",
+                "period": "FEB 2021 - HEUTE",
                 "description": [
                     "Java Fullstack Entwickler",
                     "Inhouse Softwareentwicklung von Life-Science Projekten",
@@ -271,7 +271,7 @@ export const L10N = {
             "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Düsseldorf, Germany",
             "title": "Software Entwickler",
-            "period": "DEZ 2020 - HEUTE",
+            "period": "DEZ 2020",
             "description": [
                 "Java Fullstack Entwickler",
                 "Entwicklung einer Software für den gesamten Kreditlebenszyklus für Banken.",
@@ -281,7 +281,7 @@ export const L10N = {
             },
             {
                 "company": "Bechtle",
-                "picture": "https://www.bechtle.com/.resources/bechtle-ui/webresources/assets/img/logo-bechtle.png",
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQHkzBPQUvGjBg/company-logo_200_200/0/1536224093342?e=1617235200&v=beta&t=dpf0Eko0aVI0T0FxuF19XLGHWnshOHpLf8Kb2zlxfAg",
                 "location": "Bonn, Deutschland",
                 "title": "Software Entwickler",
                 "period": "OKT 2019 - NOV 2020",
@@ -305,7 +305,7 @@ export const L10N = {
             },
             {
                 "company": "RWTH Aachen",
-                "picture": "https://www.itc.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaafpoycw&w=223&q=77&meta=0",
+                "picture": "https://media-exp1.licdn.com/dms/image/C510BAQEATKN6xf-EkA/company-logo_200_200/0/1519856450337?e=1617235200&v=beta&t=F6dTg5H6a1Sds9I4zQ7yHJJSH6hCQyQB2i-wwmv_8AQ",
                 "location": "Aachen, Deutschland",
                 "title": "Software Entwickler (Studentische Hilfskraft)",
                 "period": "SEP 2014 - FEB 2017",
@@ -323,7 +323,7 @@ export const L10N = {
                 "degree": "Master of Science",
                 "period": "SEP 2014 - JAN 2017",
                 "university": "FH Aachen",
-                "picture": "https://www.fh-aachen.de/fileadmin/template/pics/logo_alt/logo-FH.png"
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQEwhR1nxr8JJQ/company-logo_200_200/0/1550648407449?e=1617235200&v=beta&t=fHXerBOOqL0QFD8ERVQaP1Hwg88GLe4tIrbHq-HI5mg"
             },
             {
                 "title": "Bachelor Scientific Programming",
@@ -331,7 +331,7 @@ export const L10N = {
                 "degree": "Bachelor of Science",
                 "period": "SEP 2011 - AUG 2014",
                 "university": "FH Aachen",
-                "picture": "https://www.fh-aachen.de/fileadmin/template/pics/logo_alt/logo-FH.png"
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQEwhR1nxr8JJQ/company-logo_200_200/0/1550648407449?e=1617235200&v=beta&t=fHXerBOOqL0QFD8ERVQaP1Hwg88GLe4tIrbHq-HI5mg"
             },
             {
                 "title": "Mathematisch-technischer Softwareentwickler",
@@ -339,7 +339,7 @@ export const L10N = {
                 "degree": "IHK Ausbildung als 'Mathematisch-technischer Softwareentwickler'",
                 "period": "SEP 2011 - AUG 2014",
                 "university": "INFORM GmbH",
-                "picture": "https://www.inform-software.de/typo3conf/ext/mmpackage/Resources/Public/Images/inform-logo.png"
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQEwhR1nxr8JJQ/company-logo_200_200/0/1550648407449?e=1617235200&v=beta&t=fHXerBOOqL0QFD8ERVQaP1Hwg88GLe4tIrbHq-HI5mg"
             }
         ],
         "skill": "FÄHIGKEITEN",
