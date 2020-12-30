@@ -44,7 +44,7 @@ export const L10N = {
             ]
             },
             {
-                "company": "no company",
+                "company": "Leenings IT",
                 "picture" : "./assets/img/ML.png",
                 "title" : "Looking for work & further education",
                 "period": "JAN 2020",
@@ -258,7 +258,7 @@ export const L10N = {
                 ]
             },
             {
-                "company": "keine Firma",
+                "company": "Leenings IT",
                 "picture" : "./assets/img/ML.png",
                 "title" : "Jobsuche & Weiterbildung",
                 "period": "JAN 2020",
@@ -323,7 +323,7 @@ export const L10N = {
                 "degree": "Master of Science",
                 "period": "SEP 2014 - JAN 2017",
                 "university": "FH Aachen",
-                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQEwhR1nxr8JJQ/company-logo_200_200/0/1550648407449?e=1617235200&v=beta&t=fHXerBOOqL0QFD8ERVQaP1Hwg88GLe4tIrbHq-HI5mg"
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQG3bIlVpg9_Yw/company-logo_200_200/0/1549184192766?e=1617235200&v=beta&t=Ug3fCOdUCN_tFjqlb-cjpsj1ZZVdDS9neH-wmBRZpoE"
             },
             {
                 "title": "Bachelor Scientific Programming",
@@ -331,7 +331,7 @@ export const L10N = {
                 "degree": "Bachelor of Science",
                 "period": "SEP 2011 - AUG 2014",
                 "university": "FH Aachen",
-                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQEwhR1nxr8JJQ/company-logo_200_200/0/1550648407449?e=1617235200&v=beta&t=fHXerBOOqL0QFD8ERVQaP1Hwg88GLe4tIrbHq-HI5mg"
+                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQG3bIlVpg9_Yw/company-logo_200_200/0/1549184192766?e=1617235200&v=beta&t=Ug3fCOdUCN_tFjqlb-cjpsj1ZZVdDS9neH-wmBRZpoE"
             },
             {
                 "title": "Mathematisch-technischer Softwareentwickler",
