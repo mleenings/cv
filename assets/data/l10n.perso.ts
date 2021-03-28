@@ -33,7 +33,6 @@ export const L10N = {
         "experience": "EXPERIENCE",
         "experiences": [{
             "company": "adesso SE",
-            "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFq_-3lDAu5Dw/company-logo_200_200/0/1556534809219?e=1616630400&v=beta&t=1Sc3JwIIVflRvtd2lJp0wacDI2UisNZG8m4dvvKyzYM",
             "location": "Essen, Germany",
             "title": "Software developer",
             "period": "FEB 2021 - TODAY",
@@ -45,7 +44,6 @@ export const L10N = {
             },
             {
                 "company": "Leenings IT",
-                "picture" : "./assets/img/ML.png",
                 "title" : "Looking for work & further education",
                 "period": "JAN 2020",
                 "description": [
@@ -54,7 +52,6 @@ export const L10N = {
             },
             {
             "company": "Collenda GmbH",
-            "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Dusseldorf, Germany",
             "title": "Software developer",
             "period": "DEC 2020",
@@ -67,7 +64,6 @@ export const L10N = {
             },
             {
                 "company": "Bechtle",
-                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQHkzBPQUvGjBg/company-logo_200_200/0/1536224093342?e=1617235200&v=beta&t=dpf0Eko0aVI0T0FxuF19XLGHWnshOHpLf8Kb2zlxfAg",
                 "location": "Bonn, Germany",
                 "title": "Software developer",
                 "period": "OCT 2019 - NOV 2020",
@@ -79,7 +75,6 @@ export const L10N = {
             },
             {
                 "company": "Senacor",
-                "picture": "https://media-exp1.licdn.com/dms/image/C4E0BAQHTQptOLzZsOw/company-logo_200_200/0/1519888622907?e=1614211200&v=beta&t=nOGVDsuS1Ky5XW1BfgqzVfryKRmHqr66bcr2BHGIjBY",
                 "location": "Bonn, Germany",
                 "title": "Software developer",
                 "period": "MAR 2017 - SEP 2019",
@@ -247,7 +242,6 @@ export const L10N = {
         "experiences": [
             {
                 "company": "adesso SE",
-                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFq_-3lDAu5Dw/company-logo_200_200/0/1556534809219?e=1616630400&v=beta&t=1Sc3JwIIVflRvtd2lJp0wacDI2UisNZG8m4dvvKyzYM",
                 "location": "Essen, Germany",
                 "title": "Software Entwickler",
                 "period": "FEB 2021 - HEUTE",
@@ -259,7 +253,6 @@ export const L10N = {
             },
             {
                 "company": "Leenings IT",
-                "picture" : "./assets/img/ML.png",
                 "title" : "Jobsuche & Weiterbildung",
                 "period": "JAN 2020",
                 "description": [
@@ -268,7 +261,6 @@ export const L10N = {
             },
             {
             "company": "Collenda GmbH",
-            "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQFBWOiW6XDjog/company-logo_200_200/0?e=1614211200&v=beta&t=nw5krdCDy62K56z6ohtI-fOexfN283-s2XKvlyq_m8c",
             "location": "Düsseldorf, Germany",
             "title": "Software Entwickler",
             "period": "DEZ 2020",
@@ -281,7 +273,6 @@ export const L10N = {
             },
             {
                 "company": "Bechtle",
-                "picture": "https://media-exp1.licdn.com/dms/image/C4D0BAQHkzBPQUvGjBg/company-logo_200_200/0/1536224093342?e=1617235200&v=beta&t=dpf0Eko0aVI0T0FxuF19XLGHWnshOHpLf8Kb2zlxfAg",
                 "location": "Bonn, Deutschland",
                 "title": "Software Entwickler",
                 "period": "OKT 2019 - NOV 2020",
@@ -293,7 +284,6 @@ export const L10N = {
             },
             {
                 "company": "Senacor",
-                "picture": "https://media-exp1.licdn.com/dms/image/C4E0BAQHTQptOLzZsOw/company-logo_200_200/0/1519888622907?e=1614211200&v=beta&t=nOGVDsuS1Ky5XW1BfgqzVfryKRmHqr66bcr2BHGIjBY",
                 "location": "Bonn, Deutschland",
                 "title": "Software Entwickler",
                 "period": "MRZ 2017 - SEP 2019",
@@ -305,7 +295,6 @@ export const L10N = {
             },
             {
                 "company": "RWTH Aachen",
-                "picture": "https://media-exp1.licdn.com/dms/image/C510BAQEATKN6xf-EkA/company-logo_200_200/0/1519856450337?e=1617235200&v=beta&t=F6dTg5H6a1Sds9I4zQ7yHJJSH6hCQyQB2i-wwmv_8AQ",
                 "location": "Aachen, Deutschland",
                 "title": "Software Entwickler (Studentische Hilfskraft)",
                 "period": "SEP 2014 - FEB 2017",
