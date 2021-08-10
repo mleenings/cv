@@ -285,7 +285,7 @@ export const L10N = {
             {
                 "company": "Senacor",
                 "location": "Bonn, Deutschland",
-                "title": "Software Developer",
+                "title": "Software Entwickler",
                 "period": "MRZ 2017 - SEP 2019",
                 "description": [
                     "Software Entwickler",

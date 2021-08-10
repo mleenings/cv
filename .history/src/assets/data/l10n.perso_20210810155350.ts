@@ -34,11 +34,11 @@ export const L10N = {
         "experiences": [{
             "company": "adesso SE",
             "location": "Essen, Germany",
-            "title": "Software-Engineer",
+            "title": "Software Engineer",
             "period": "FEB 2021 - TODAY",
             "description": [
                 "Java Fullstack developer",
-                "Working at different life science projects",
+                "Working inhouse at life science projects",
                 "Tech-Stack: Angular, Java, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, IntelliJ",
             ]
             },
@@ -47,7 +47,7 @@ export const L10N = {
                 "title" : "Looking for work & further education",
                 "period": "JAN 2020",
                 "description": [
-                    "further education: Spring Cloud, Angular, Responsive Webapps",
+                    "further education: Spring Cloud, Angular",
                 ]
             },
             {
@@ -65,7 +65,7 @@ export const L10N = {
             {
                 "company": "Bechtle",
                 "location": "Bonn, Germany",
-                "title": "Senior software developer",
+                "title": "Software developer",
                 "period": "OCT 2019 - NOV 2020",
                 "description": [
                     "Java Fullstack developer",
@@ -243,11 +243,11 @@ export const L10N = {
             {
                 "company": "adesso SE",
                 "location": "Essen, Germany",
-                "title": "Software-Engineer",
+                "title": "Software Entwickler",
                 "period": "FEB 2021 - HEUTE",
                 "description": [
-                    "Fullstack Entwickler",
-                    "Softwareentwicklung von verschiedenen Life-Science Projekten",
+                    "Java Fullstack Entwickler",
+                    "Inhouse Softwareentwicklung von Life-Science Projekten",
                     "Tech-Stack: Angular, Java, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, IntelliJ",
                 ]
             },
@@ -256,7 +256,7 @@ export const L10N = {
                 "title" : "Jobsuche & Weiterbildung",
                 "period": "JAN 2020",
                 "description": [
-                    "Weiterbildung:  Spring Cloud, Angular, Responsive Webapps",
+                    "Weiterbildung: Spring Cloud, Angular",
                 ]
             },
             {
@@ -265,7 +265,7 @@ export const L10N = {
             "title": "Software Entwickler",
             "period": "DEZ 2020",
             "description": [
-                "Fullstack Entwickler",
+                "Java Fullstack Entwickler",
                 "Entwicklung einer Software für den gesamten Kreditlebenszyklus für Banken.",
                 "Tech-Stack: Java, React, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse",
                 "Info: Aufgrund der COVID-19 Pandemie und schweren wirtschaftlichen Folgen für das Unternehmen, den Job nicht angetreten."
@@ -274,10 +274,10 @@ export const L10N = {
             {
                 "company": "Bechtle",
                 "location": "Bonn, Deutschland",
-                "title": "Senior Software Entwickler",
+                "title": "Software Entwickler",
                 "period": "OKT 2019 - NOV 2020",
                 "description": [
-                    "Fullstack Entwickler",
+                    "Java Fullstack Entwickler",
                     "Entwicklung einer Anwendung für den Öffentlichen Sektor zur Bankenüberwachung, beim Kunden.",
                     "Tech-Stack: Java, JSF, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, Eclipse"
                 ]
@@ -285,7 +285,7 @@ export const L10N = {
             {
                 "company": "Senacor",
                 "location": "Bonn, Deutschland",
-                "title": "Software Developer",
+                "title": "Software Entwickler",
                 "period": "MRZ 2017 - SEP 2019",
                 "description": [
                     "Software Entwickler",
