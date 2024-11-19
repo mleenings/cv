@@ -34,12 +34,12 @@ export const L10N = {
         "experiences": [{
             "company": "adesso SE",
             "location": "Essen, Germany",
-            "title": "Software-Engineer",
+            "title": "Senior Software-Engineer",
             "period": "FEB 2021 - TODAY",
             "description": [
                 "Java Fullstack developer",
                 "Working at different life science projects",
-                "Tech-Stack: Angular, Java, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, IntelliJ",
+                "Tech-Stack: Angular, Java, Spring, Hibernate, JPA, Oracle, Git, Gradle, Scrum, Atlassian, IntelliJ, SAP,...",
             ]
             },
             {
